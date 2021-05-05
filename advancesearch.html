@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Advanced Search </title>
+        <style>
+             .glogo {  
+                
+                 margin-top: 100px ;
+                 margin-bottom:20px ;
+              }
+
+              ul {
+                 list-style-type: none;
+                 overflow: hidden;
+              }
+
+              li {
+                 float: right; 
+                 padding: 10px 10px;
+              }
+
+
+              li a {
+                 font-family:
+                 arial,sans-serif;
+                 color: #222;
+                 display: block;
+                 text-align: center;
+                 padding: 10px 10px;
+                 text-decoration: none;
+                 font-size:14px;
+               }
+
+              .inputsearch {
+                 
+                 height: 10px ;
+                 border:none;
+                 width:500px;
+                 padding: 10px 20px ;
+                 outline: none;
+                 border:1px solid #cccccc;
+               
+                 
+  
+               } 
+               
+               .button{
+                  
+                  border:none;
+                  color: #ffffff ;
+                  font-size:15px;
+                  padding: 10px 20px;
+                  margin:5px;
+                  border-radius:4px;
+                  outline:none;
+                  background-color: #0099CC ;
+                }
+        </style>
+    </head>
+
+    <body>
+        <ul>
+            <li><a href = " imagesearch.html" > Images </a></li>
+            <li><a href = "index.html" > Google Search </a></li>
+        </ul>
+        <img class="glogo" alt="Google" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" width= "100" >
+        
+                              
+
+        <form action="https://google.com/search">
+        <table>
+
+            <tr>
+                <td>
+                
+                       All these words:
+                </td>
+                <td>
+                       <input type="text" name="as_q" class="inputsearch" >
+                </td>
+            </tr>
+            <tr>
+                <td>    
+                       Exact word/phrase:
+                </td>
+                <td>
+                 
+                       <input type="text" name="as_epq" class="inputsearch" >
+                 </td>
+             </tr>
+             <tr>
+                  <td>
+                       Any of these words: 
+                  </td>
+                  <td>
+                       <input type="text" name="as_oq" class="inputsearch" >
+                  </td>
+              <tr>
+                  <td>
+                       None of these words:
+                  </td>
+                  <td>                       
+                       <input type="text" name="as_eq" class="inputsearch" >
+                  </td>
+             </tr> 
+          
+             <tr>
+                 <td>
+                 </td>
+                 <td align="right">
+                      <br>
+                      <input class="button" type="submit" value="advanced search">
+                 </td>
+                 </tr>
+          </table>
+</form>
+    </body>
+</html>
+
+
